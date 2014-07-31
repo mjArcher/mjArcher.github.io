@@ -3,14 +3,71 @@ layout: default
 title: Jeffrey Salmond
 ---
 
-<p>
-I'm a PhD student in the Laboratory for Scientific Computing at the University of Cambridge. My PhD focuses on finding numerical solutions for shock and detonation problems in complex materials.
-</p>
+<section>
+  <p>
+  I'm a PhD student in the Laboratory for Scientific Computing at the University of Cambridge. My PhD focuses on finding numerical solutions for shock and detonation problems in complex materials.
+  </p>
+</section>
+<hr/>
+<section>
+  <h2>
+    Publications
+  </h2>
 
-<p>
-<a href="/cv/">Education!</a>
-<a href="/publications/">Publications!</a>
-</p>
+  <ul>
+  {% for pub in site.data.publications %}
+    <li> {{ pub.title }} <small> {{ pub.where }} </small></li>
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+<hr/>
+<section>
+  <h2>
+    Education
+  </h2>
+
+  <div style="position:relative;">
+    <img src="/img/cambridge.png" width=300 style="border:none; position:absolute; right:0; top:0;">
+    <h3 style="position:relative;">
+      <strong>PhD</strong>
+      <span style="position:absolute; left:3.5em;">Scientific Computing</span>
+    </h3>
+    <dl class="horizontal">
+      <dt>Thesis</dt>
+      <dd>Mesoscale Modeling of Plastic-Bonded Explosives</dd>
+      <dt>Supervisor</dt>
+      <dd><a href="http://www.phy.cam.ac.uk/people/nikiforakisn.php">Dr Nikos Nikiforakis</a></dd>
+    </dl>
+
+    <h3 style="position:relative;">
+      <strong>MPhil</strong>
+      <span style="position:absolute; left:3.5em;">Scientific Computing</span>
+    </h3>
+    <dl class="horizontal">
+      <dt>Thesis</dt>
+      <dd>Numerical Studies of Shock Induced Ignition</dd>
+      <dt>Supervisor</dt>
+      <dd><a href="http://www.phy.cam.ac.uk/people/nikiforakisn.php">Dr Nikos Nikiforakis</a></dd>
+    </dl>
+  </div>
+
+  <div style="position: relative;">
+    <img src="/img/imperial.png" width=300 style="border:none; position:absolute; right:0; top:0;">
+    <h3 style="position:relative;">
+      <strong>MSci</strong>
+      <span style="position:absolute; left:3.5em;">Physics with Theoretical Physics</span>
+    </h3>
+    <dl class="horizontal">
+      <dt>Thesis</dt>
+      <dd>Brane Solutions in Supergravity</dd>
+      <dt>Tutor</dt>
+      <dd><a href="http://www3.imperial.ac.uk/people/j.sedgbeer">Dr Julia Sedgbeer</a></dd>
+      <dt>Supervisor</dt>
+      <dd><a href="http://www3.imperial.ac.uk/people/k.stelle">Dr Kellogg Stelle</a></dd>
+    </dl>
+  </div>
+</section>
 
 <!--<ul class="posts">
 {% for post in site.posts %}

@@ -1,12 +1,15 @@
 ---
 ---
 
+$font-color: #777
+$bold-color: #666
+
 body
   font-family: Helvetica, Arial, sans-serif
   font-size: 18px
   line-height: 1.5
   font-weight: 300
-  color: #777
+  color: $font-color
   background-color: #fdfdfd
 
   max-width: 50em
@@ -19,13 +22,12 @@ h1, h2, h3, h4, h5
 p
   text-align: justify
 
-strong
-  color: #666
+a, a:visited
+  color: $font-color
+  text-decoration: underline
 
-a
-  color: #3b719f
-a:visited
-  color: #3b719f
+strong
+  color: $bold-color
 
 header
   color: black
@@ -35,6 +37,10 @@ header, footer
 
 footer
   font-size: 80%
+  a
+    color: #3b719f
+  a:visited
+    color: #3b719f
 
 
 dl.horizontal

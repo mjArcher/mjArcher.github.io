@@ -18,11 +18,11 @@ title: Jeffrey Salmond
   {% for pub in site.data.publications %}
     <li>
       {% if pub.file %}
-        {{ pub.title }}
-      {% else %}
         <a href="/doc/{{pub.file}}">
           {{ pub.title }}
         </a>
+      {% else %}
+        {{ pub.title }}
       {% endif %}
       <small> {{ pub.where }} </small>
     </li>

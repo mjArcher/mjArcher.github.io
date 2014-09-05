@@ -1,0 +1,11 @@
+# Site settings
+title: Jeffrey Salmond
+email: js947@cam.ac.uk
+description: "Jeffrey Salmond"
+url: "http://www.salmond.eu"
+twitter_username: js947
+github_username:  js947
+
+# Build settings
+markdown: kramdown
+permalink: pretty

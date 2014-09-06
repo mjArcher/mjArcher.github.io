@@ -1,10 +1,10 @@
 # Site settings
-title: Jeffrey Salmond
-email: js947@cam.ac.uk
-description: "Jeffrey Salmond"
-url: "http://www.salmond.eu"
-twitter_username: js947
-github_username:  js947
+title: Matthew Archer
+email: ma595@cam.ac.uk
+description: "Matthew Archer"
+url: "http://www.mattarcher.co.uk"
+# twitter_username: js947
+github_username:  mjArcher
 
 # Build settings
 markdown: kramdown

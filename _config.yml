@@ -3,10 +3,10 @@ title: Matthew Archer
 email: ma595@cam.ac.uk
 description: "Matthew Archer"
 # url: "http://www.mattarcher.eu"
-url: "http://localhost:4000"
+url: "https://github.com/mjArcher"
 # twitter_username: js947
 github_username:  mjArcher
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+# permalink: pretty
